@@ -1,0 +1,132 @@
+/**********************
+     MAIN
+**********************/
+
+.main {
+    background-color: $color-sec;
+     @media #{$brk-wider} {
+       width: 90%;
+        margin: 0 auto;
+
+     }
+ 
+    }
+
+
+.home,
+.skills{
+   @extend %centered;
+   @extend %clearfix;
+    margin-right: 15px;
+    padding-left: 15px;
+    
+}
+
+#portfolio {
+    @extend %centered;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    @media #{$brk-narrow} {
+       margin:auto;
+       padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    @media #{$brk-wider} {
+       background-color: $color-portfolio;
+       padding: 0;
+    }
+}
+
+
+#portfolio li:nth-child(4n) {
+     @media #{$brk-wider} {
+       clear: left;
+      }
+ }
+
+
+
+.primary {
+
+     @media #{$brk-narrow} {
+        display: block;
+       max-width: 100%;
+       }
+
+       @media #{$brk-wider} {
+          display: block;
+          width: 65%;
+          padding-top: 15px;
+          margin-top: 25px;
+          margin-left: 25px
+       }
+         
+       }
+    
+    #home img{
+
+      @media #{$brk-narrow} {
+        max-width: 200px;
+        float:right;
+        margin-left: 15px;
+        }
+       
+       @media #{$brk-wider} {
+         max-width: 650px;
+         float:right;
+         padding-top: 15px;
+         margin-right: 25px;
+         margin-left: 25px;
+         margin-top: 15px;
+         margin-bottom: 25px;
+
+       }
+
+       }
+
+
+    
+    
+    
+
+    .col {
+      
+      @media #{$brk-narrow} {
+        display: inline-block;
+        width: 50%;
+        margin-right: -4px;
+        vertical-align: top;
+        padding-left: 10px;
+        padding-right: 10px
+        }
+
+       @media #{$brk-wider} {
+         width:30% ;
+    }
+       
+    }
+
+
+
+ul.list {
+  @extend %centered;
+  padding: 0;
+  
+}
+
+.list li {
+  border-radius: 6px;
+  display: inline-block;
+  background: $color-list-li;
+  color: $color-li;
+  padding: 5px 10px;
+  margin: 2px;
+  
+  &:nth-child(odd) {
+  background: $color-nth-child;
+}
+}
+

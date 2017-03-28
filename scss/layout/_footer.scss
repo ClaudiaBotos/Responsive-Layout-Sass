@@ -1,0 +1,110 @@
+/**********************
+    FOOTER
+**********************/
+.main-footer {
+@extend %clearfix;
+ background-color: $color-prim;
+}
+
+.main-footer a {
+   text-decoration: none;
+    list-style: none;
+    color: $color-link-footer;
+        overflow: hidden;
+        
+   }
+
+
+.top {
+    float: right;
+    margin: 0  10px 15px 15px;;
+    display: inline-block;
+
+    @media #{$brk-narrow} {
+     visibility: hidden;
+}
+    
+    }
+
+#contact {
+    @extend %centered;
+    padding-top: 20px;
+    margin-right: 10px;
+    margin-left:  10px;
+
+    @media #{$brk-narrow} {
+      margin: auto;
+      max-width: 70%;
+    }
+
+    @media #{$brk-wider} {
+      margin: auto;
+      max-width: 50%;
+    }
+}
+
+.contact-info{
+    display: inline-block;
+    width:90%;
+    align-items: center;
+    padding: 0;
+
+}
+
+
+
+.name-footer {
+    margin: 0 10px  15px 15px;
+    display: inline-block;
+    
+    @media #{$brk-narrow} {
+        float:left;
+        margin-left: 40px;
+    }
+
+    @media #{$brk-wider} {
+        margin-left: 75px;
+    }
+    
+}
+
+.footer-nav {
+   display: none;
+   
+   @media #{$brk-narrow} {
+       display: inline;
+        visibility: visible;
+        float: right;
+        margin-right: -75px;
+   }
+
+
+   @media #{$brk-wider} {
+        margin-right: -40px;
+   }
+}
+
+
+
+.footer-nav li {
+
+@media #{$brk-narrow} {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: 10px;
+        }
+        }
+
+
+
+/* Gradient transparent - color - transparent */ 
+
+hr { 
+     border: 0; 
+    height: 1px; 
+    background: $color-hr; 
+    width: 90%;
+}
+
+
+

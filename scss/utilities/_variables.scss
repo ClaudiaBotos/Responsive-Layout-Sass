@@ -1,0 +1,45 @@
+//Color Variables
+
+
+$white      : #fff;
+$white-smoke: #f6f6f6;
+$navy-blue  : #003264;
+$light-blue : #7b9aff;
+$sky-blue   : #0399ff;
+$light-green: #d6dfff;
+$dark-blue  : #171745;
+$orange     : #ff9904;
+$grey       : #bdbdbd;
+
+
+
+// Functional Color Variables
+
+$color-body      : $white-smoke;
+$color-portfolio : $white;
+$color-prim      : $light-green;
+$color-sec       : $white-smoke;
+
+
+$color-text      : $navy-blue;
+$color-hr        : $grey;
+$color-li        : $white;
+
+
+$color-link      : $navy-blue;
+$color-link-name : $light-blue;
+$color-link-hover: $light-blue;
+$color-link-footer:$dark-blue;
+
+
+$color-nth-child : $sky-blue;
+$color-list-li   : $orange;
+
+
+
+
+
+//Media Queries
+
+$brk-narrow: '(min-width: 720px)';
+$brk-wider : '(min-width: 1024px)';

@@ -1,0 +1,107 @@
+/**********************
+NAVIGATION
+**********************/
+
+.name {
+    font-size: 1.50em;
+    margin: 0;
+    
+    @media #{$brk-wider} {
+        float:left;
+         margin-left: 100px;
+     
+     }
+   
+    }
+
+
+
+.name a {
+    color: $color-link-name;
+    
+}
+
+.name a,
+.main-nav a {
+	 @extend %centered;
+	 display: block;
+    padding: 10px 15px;
+	
+}
+
+.main-nav  {
+
+  a  {
+    margin-top: 5px;
+    font-size: .95em;
+    color: $color-link;
+    text-transform: uppercase;
+    background-color:   $color-prim;
+
+    &:hover {
+    color: $color-link-hover;
+          }
+
+           @media #{$brk-narrow} {
+
+           background-color: $color-sec;
+           }
+       }
+
+  
+  li {
+    
+    @media #{$brk-narrow} {
+
+    display:inline-block;
+        font-weight: bold; 
+        padding: 0;
+    }
+
+    @media #{$brk-wider} {
+
+         float: left;
+        margin-left: 12px;
+     }
+
+     }
+
+
+
+
+  @media #{$brk-wider} {
+
+         float:right;
+        margin-right: 100px;
+     }
+
+
+  }
+
+
+  
+  .main-header {
+    @extend %clearfix;
+    @media #{$brk-wider} {
+        padding-top: 25px;
+        padding-bottom: 25px;
+     
+     }
+
+  }
+
+
+                                
+
+nav ul {
+ @extend %centered;
+  padding: 15px; 
+
+  @media #{$brk-narrow} {
+
+        padding: 0;
+        margin-top: 0;
+  }
+
+ 
+}

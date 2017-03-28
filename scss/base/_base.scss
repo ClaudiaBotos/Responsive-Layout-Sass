@@ -1,0 +1,38 @@
+/* Base Styles--------*/
+
+*{ 
+  box-sizing: border-box;
+}
+
+body {
+ 
+ font-family: 'Lora', 'Source Sans Pro', serif, sans-serif;
+line-height: 1.6;
+color: $color-text;
+background-color: $color-body;
+
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+h5 {
+    margin: 0;
+  }
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+    
+}
+
+li {
+  list-style: none;
+}
