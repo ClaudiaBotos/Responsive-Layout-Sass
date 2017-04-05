@@ -89,9 +89,9 @@
 .footer-nav li {
 
 @media #{$brk-narrow} {
+  @include text($weight:bold);
         display: inline-block;
-        font-weight: bold;
-        margin-right: 10px;
+       margin-right: 10px;
         }
         }
 

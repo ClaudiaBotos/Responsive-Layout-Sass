@@ -5,10 +5,9 @@
 }
 
 body {
- 
+ @include text($size:16px, $weight:normal, $color: $color-text);
  font-family: 'Lora', 'Source Sans Pro', serif, sans-serif;
 line-height: 1.6;
-color: $color-text;
 background-color: $color-body;
 
 }
@@ -28,7 +27,7 @@ h5 {
   }
 
 p {
-    font-size: .95em;
+   @include text($size:.95em, $weight:normal, $color: $color-text);
     margin-bottom: 1.8em;
     
 }
